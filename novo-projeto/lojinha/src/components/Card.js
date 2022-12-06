@@ -23,8 +23,8 @@ export function CardBox (props) {
             <Text color='blue.600' fontSize='2xl'>
               {props.product.price}
             </Text>
-            <Button variant='solid' colorScheme='blue'>
-              Buy now
+            <Button variant='solid' colorScheme='pink'>
+              Comprar
             </Button>
           </Flex>
           </Stack>

@@ -3,8 +3,9 @@ import styled from "styled-components"
 const Container = styled.div`
   width: 20%;
   height: 100%;
-  border: 2px solid green;
   display: flex;
+  background-color: #d0f4de;
+  border-left: 4px solid #f7edf0;
 `
 
 export function Cart () {

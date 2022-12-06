@@ -18,10 +18,8 @@ const GlobalStyle = createGlobalStyle`
 const Container = styled.div`
   width: 100vw;
   height: 80vh;
-  border: 2px solid black;
   display: flex;
 section{
-  border: 2px solid blue;
   width: 60%;
   max-height: 100%;
   overflow-y: auto;
@@ -29,7 +27,7 @@ section{
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
-  background-color: black;
+  background-color: #fde2e4;
   padding: 20px 0;
 }
 `
