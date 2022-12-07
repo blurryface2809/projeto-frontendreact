@@ -20,7 +20,7 @@ export function CardBox (props) {
             </Text>
             
             <Flex justifyContent="space-between" spacing='2'>
-            <Text color='blue.600' fontSize='2xl'>
+            <Text color='orange.300' fontSize='2xl'>
               {props.product.price}
             </Text>
             <Button variant='solid' colorScheme='pink'>

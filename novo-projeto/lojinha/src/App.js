@@ -21,15 +21,35 @@ const Container = styled.div`
   display: flex;
 section{
   width: 60%;
-  max-height: 100%;
+  height: 100%;
   overflow-y: auto;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  flex-wrap: wrap;
   background-color: #fde2e4;
   padding: 20px 0;
+  /* border:2px solid blue; */
+  display:flex;
+  justify-content: center;
+  >div{
+    display: flex;
+    width: 85%;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+  }
 }
+section::-webkit-scrollbar {
+  width: 20px;               
+}
+
+section::-webkit-scrollbar-track {
+  background: #a0ced9;        
+}
+
+section::-webkit-scrollbar-thumb {
+  background-color: #ffd97d;    
+  border: 2px solid #a0ced9;  
+}
+
 `
 
 function App() {
@@ -39,13 +59,14 @@ function App() {
     <Container>
       <Filter/>
       <section>
+        <div>
         {products.map((product)=>{
           return (
           <div key={product.id}>
             <CardBox  product={product}/>
           </div>)
         })}
-      
+        </div>
       </section>
       <Cart/>
       <GlobalStyle/>
