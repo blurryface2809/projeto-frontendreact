@@ -7,13 +7,16 @@ const Container = styled.div`
   display: flex;
   background-color: #f3c4fb;
   border-left: 5px solid #ffffff;
+  justify-content: center;
+  padding: 20px;
+  
   h1{
     display: flex;
     justify-content: space-around;
     align-items: start;
     gap: 10px;
+    font-size: 1.2em;
   }
-  
 `
 
 export function Cart () {

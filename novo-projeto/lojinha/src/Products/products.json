@@ -5,8 +5,10 @@
         "price": 20.49,
         "image": "https://images.tcdn.com.br/img/img_prod/612872/100_atividades_espaco_enigmas_experimentos_palavras_cruzadas_e_muito_mais_6227_1_72f60122e00443463bd4b37df2d602e7.png",
         "alt": "imagem do livro de atividades",
-        "text": "Decole para o espaço com as atividades deste livro! Você conhecerá alienígenas e visitará planetas diferentes! Resolva enigmas, caça-palavras e palavras cruzadas."
+        "text": "Decole para o espaço com as atividades deste livro! Você conhecerá alienígenas e visitará planetas diferentes! Resolva enigmas, caça-palavras e palavras cruzadas.",
+        "quantity": 1
     }
+
 ,
 {
     "id":2,
@@ -14,7 +16,8 @@
     "price": 20.49,
     "image": "https://images.tcdn.com.br/img/img_prod/612872/colorindo_meu_mundo_espaco_6603_1_041108573b7b9cb2ae15b801ff4ce4b9.png",
     "alt": "imagem do livro de atividades",
-    "text": "Divirta-se colorindo este incrível livro com 72 páginas e 100 adesivos maneiros, é relaxante, pois promove o bem-estar ao se realizar uma atividade prazerosa, como colorir, desenvolve a concentração, as capacidades psicomotoras, desperta a criatividade e a imaginação e reduz o stress, a ansiedade."
+    "text": "Divirta-se colorindo este incrível livro com 72 páginas e 100 adesivos maneiros, é relaxante, pois promove o bem-estar ao se realizar uma atividade prazerosa, como colorir, desenvolve a concentração, as capacidades psicomotoras, desperta a criatividade e a imaginação e reduz o stress, a ansiedade.",
+    "quantity": 1
 }
 ,
 {
@@ -23,7 +26,8 @@
     "price": 54.03,
     "image": "https://images.tcdn.com.br/img/img_prod/612872/hora_de_pintar_espaco_livro_de_pintura_7431_1_64818da9bd511ff47332bd9333b11598.png",
     "alt": "imagem do livro de pintar",
-    "text": "Quer viajar no espaço e ter uma experiência incrível? O Livro de pintura - Espaço está aqui para isso. Com 12 cores variáveis de giz de cera para colorir no livrinho que tem imagens do espaço, você pode liberar a sua criatividade quantas vezes quiser, é só lavar e pintar muito mais!"
+    "text": "Quer viajar no espaço e ter uma experiência incrível? O Livro de pintura - Espaço está aqui para isso. Com 12 cores variáveis de giz de cera para colorir no livrinho que tem imagens do espaço, você pode liberar a sua criatividade quantas vezes quiser, é só lavar e pintar muito mais!",
+    "quantity": 1
 }
 ,
 {
@@ -32,7 +36,8 @@
     "price": 71.94,
     "image": "https://images.tcdn.com.br/img/img_prod/612872/livro_modelo_faca_um_mobile_sistema_solar_5051_1_383214ad02cacc2cc2099045153429e3.png",
     "alt": "imagem do modelo de móbile",
-    "text": "Decole para o espaço com os astronautas Léo e Laura e descubra alguns fatos espaciais impressionantes! Leia a história e então destaque o seu próprio móbile, que apresenta o Sol e os oito planetas. O móbile não requer cola ou recortes e pode ser encaixado facilmente, formando uma decoração de quarto fantástica."
+    "text": "Decole para o espaço com os astronautas Léo e Laura e descubra alguns fatos espaciais impressionantes! Leia a história e então destaque o seu próprio móbile, que apresenta o Sol e os oito planetas. O móbile não requer cola ou recortes e pode ser encaixado facilmente, formando uma decoração de quarto fantástica.",
+    "quantity": 1
 },
 {
     "id":5,
@@ -40,7 +45,8 @@
     "price": 35.92,
     "image": "https://images.tcdn.com.br/img/img_prod/612872/montessori_meu_primeiro_livro_de_atividades_espaco_7662_1_afac9d58804afa66a036cef354e93387.jpg",
     "alt": "imagem do livro de atividades",
-    "text": "Seguindo os príncípios do Método Montessori, este livro oferece atividades envolventes e criativas, que foram especialmente elaboradas para estimular as habilidades cognitivas das crianças, em uma aventura brilhante pelo espaço."
+    "text": "Seguindo os príncípios do Método Montessori, este livro oferece atividades envolventes e criativas, que foram especialmente elaboradas para estimular as habilidades cognitivas das crianças, em uma aventura brilhante pelo espaço.",
+    "quantity": 1
 },
 {
     "id":6,
@@ -48,7 +54,8 @@
     "price": 33.86,
     "image": "https://images.tcdn.com.br/img/img_prod/612872/quebra_cabeca_60_pecas_aventura_no_espaco_6717_1_5d29175677543f35031b4d16b7c9f400.png",
     "alt": "imagem do quebra-cabeças",
-    "text": "Divirta-se montando esse quebra cabeça de 60 peças com o tema Aventura no Espaço!"
+    "text": "Divirta-se montando esse quebra cabeça de 60 peças com o tema Aventura no Espaço!",
+    "quantity": 1
 },
 {
     "id":7,
@@ -56,6 +63,7 @@
     "price": 67.40,
     "image": "https://images.tcdn.com.br/img/img_prod/612872/viagem_espacial_6711_1_973dd1a8237d3433e96ca3f9727aaf36.png",
     "alt": "imagem do livro de atividades",
-    "text": "Faça uma viagem pela galáxia neste jogo educativo levando passageiros e mostrando que entende tudo de adição e subtração."
+    "text": "Faça uma viagem pela galáxia neste jogo educativo levando passageiros e mostrando que entende tudo de adição e subtração.",
+    "quantity": 1
 }
 ]
