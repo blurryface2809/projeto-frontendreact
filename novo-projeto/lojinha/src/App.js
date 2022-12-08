@@ -5,7 +5,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import products from "../src/Products/products.json";
 import { Header } from "../src/components/Header";
 import { Footer } from "../src/components/Footer";
-
+import { useState } from "react";
 
 
 const GlobalStyle = createGlobalStyle`
@@ -49,26 +49,70 @@ section::-webkit-scrollbar-thumb {
   background-color: #ffd97d;    
   border: 2px solid #a0ced9;  
 }
-
 `
 
 function App() {
+  
+  const [name, setName] = useState("")
+
+  const [minPrice, setMinPrice] = useState("1")
+
+  const [maxPrice, setMaxPrice] = useState("1000")
+
+  const [sortByPrice, setSortByPrice] = useState("")
+
+  const [cart, setCart] = useState([])
+
+
+
   return (
     <>
     <Header/>
     <Container>
-      <Filter/>
+      <Filter
+      name={name}
+      setName={setName}
+      maxPrice={maxPrice}
+      setMaxPrice={setMaxPrice}
+      minPrice={minPrice}
+      setMinPrice={setMinPrice}
+      sortByPrice={sortByPrice}
+      setSortByPrice={setSortByPrice}
+      />
       <section>
         <div>
-        {products.map((product)=>{
+        {products
+        .filter((product)=>{
+          console.log(product.name.includes(name))
+          return product.name.includes(name.toUpperCase())
+        })
+        .filter((product)=>{
+          return product.price >= minPrice
+        })
+        .filter((product)=>{
+          return product.price <= maxPrice
+        })
+        .sort((a,b)=>{
+          if(sortByPrice==="crescente"){
+            return a.price>b.price?1:-1
+          }else if(sortByPrice==="decrescente"){
+            return a.price<b.price?1:-1
+          }
+        })
+        .map((product)=>{
           return (
           <div key={product.id}>
-            <CardBox  product={product}/>
+            <CardBox  
+            product={product}
+            cart={cart}
+            setCart={setCart}/>
           </div>)
         })}
         </div>
       </section>
-      <Cart/>
+      <Cart
+      cart={cart}
+      setCart={setCart}/>
       <GlobalStyle/>
     </Container>
     <Footer/>
