@@ -90,7 +90,6 @@ function App() {
         <div>
         {products
         .filter((product)=>{
-          console.log(product.name.includes(name))
           return product.name.includes(name.toUpperCase())
         })
         .filter((product)=>{

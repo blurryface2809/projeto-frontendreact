@@ -30,12 +30,12 @@ export function CardBox(props) {
     if (!findArray) {
       novoCart.push(product);
     } else {
-      product.quantity = product.quantity + 1;
+      findArray.quantity = findArray.quantity + 1;
     }
     props.setCart(novoCart);
     console.log(props.cart);
 
-
+    // localStorage.setItem("itensCart", JSON.stringify(props.cart))
   
   };
 
