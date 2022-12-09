@@ -34,6 +34,9 @@ export function CardBox(props) {
     }
     props.setCart(novoCart);
     console.log(props.cart);
+
+
+  
   };
 
   return (
