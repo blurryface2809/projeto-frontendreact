@@ -5,7 +5,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import products from "../src/Products/products.json";
 import { Header } from "../src/components/Header";
 import { Footer } from "../src/components/Footer";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 
 const GlobalStyle = createGlobalStyle`
@@ -61,8 +61,15 @@ function App() {
 
   const [sortByPrice, setSortByPrice] = useState("")
 
-  const [cart, setCart] = useState([])
 
+  const itensCart = JSON.parse(localStorage.getItem("itensCart"))
+
+
+  const [cart, setCart] = useState([...itensCart])
+  
+  useEffect(()=>{
+    localStorage.setItem("itensCart", JSON.stringify(cart))
+},[cart])
 
 
   return (
